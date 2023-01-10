@@ -1,0 +1,21 @@
+{
+    "name": "pavel-dotsenko/str-in-matrix",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PavelDotsenko\\StrInMatrix\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavlo Dotsenko",
+            "email": "pavel.dotsenko@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": "^6.2",
+        "ext-readline": "*"
+    }
+}
